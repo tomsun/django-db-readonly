@@ -55,7 +55,7 @@ class ReadOnlyCursorWrapper(object):
         # Data Definition
         'CREATE', 'ALTER', 'RENAME', 'DROP', 'TRUNCATE',
         # Data Manipulation
-        'INSERT INTO', 'UPDATE', 'REPLACE', 'DELETE FROM',
+        'INSERT', 'UPDATE', 'REPLACE', 'DELETE',
     )
     _last_executed = ''
 
